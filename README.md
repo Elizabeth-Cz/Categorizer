@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Categorize
+This is a React web application that displays website details and blog posts. The website details include the website's logo, URL, last update date, language, and a list of similar websites. The blog post page displays an image, title, last update date, and four paragraphs of text.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run the app
+To run this app, you need to follow these steps:
 
-## Available Scripts
+Clone the repository to your local machine. 
 
-In the project directory, you can run:
+Navigate to the project directory in your terminal. 
 
-### `npm start`
+Run `npm install` to install the project dependencies. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Run `npm start` to start the development server. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Dependencies
+### This app has the following dependencies:
 
-### `npm test`
+React: a JavaScript library for building user interfaces.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router: a library for adding routing to React applications.
 
-### `npm run build`
+Tailwind CSS: a utility-first CSS framework for building responsive designs quickly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+react-icons: a library of icons for React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## App Structure
+App.js: This is the main component that handles the routing of the application. It contains the Header, Footer, and Routes components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Header.js: This component contains the navigation bar and links to the home and blog pages.
 
-### `npm run eject`
+Footer.js: This component contains the footer information.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Page.js: This is a reusable component that wraps the content of each page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+WebsiteDetails.js: This component displays the details of a website, including the logo, URL, last update date, language, and a list of similar websites.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+BlogPost.js: This component displays the details of a blog post, including an image, title, last update date, and four paragraphs of text.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+index.css: This is the main CSS file for the application.
