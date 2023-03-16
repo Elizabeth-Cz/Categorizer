@@ -2,7 +2,7 @@ import { FaHeartBroken } from 'react-icons/fa';
 
 const Page = ({ children }) => {
   return (
-    <main className="max-w-3xl mx-auto bg-white rounded-lg p-10 drop-shadow-md grow flex flex-col max-[640px]:p-6">
+    <main className="max-w-3xl mx-auto bg-white rounded-lg p-10 drop-shadow-md grow flex flex-col max-[640px]:p-4 max-[640px]:mx-4">
       {children || (
         <div className="flex flex-col items-center gap-4">
           <FaHeartBroken className="text-3xl" />
