@@ -87,7 +87,7 @@ const WebsiteDetails = () => {
             className="underline"
             href={`http://catagorizer.io/website/${url}?json=true`}
           >
-            http://catagorizer.io/website{url}?json=true
+            http://catagorizer.io/website/{url}?json=true
           </a>
         </section>
         <section>
