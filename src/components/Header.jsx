@@ -26,9 +26,7 @@ const Header = () => {
             Categorizer.io
           </h2>
         </Link>
-        <nav
-          className={`flex ${menuOpen ? 'h-[90vh]' : 'max-[640px]:opacity-0'}`}
-        >
+        <nav className={`flex ${menuOpen ? 'h-72' : 'max-[640px]:opacity-0'}`}>
           <ul
             className={`flex gap-4 underline ${
               menuOpen
